@@ -65,6 +65,8 @@ body{
     margin-left: 0px;
 } 
 .my-image{
+    height: 200px;
+    width: 200px;
     float: left;
     margin: 4px;
     margin-right: 10px;
@@ -152,7 +154,15 @@ body{
 
 
 /* personal section*/
+.personal{
+    padding: 20px;
+    margin: 0px;
+}
+
 .personal li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     list-style-type: none;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -163,13 +173,14 @@ body{
     display: block;
     background: white;
     height: 30px;
-    width: 350px;
+    width: 320px;
     border-radius: 10px;
     border: 1px solid black;
     overflow: hidden;
     box-shadow: 0 0 10px grey;
     
 }
+/* background images*/
 .about{
     background:url(about.jpg) no-repeat;
     background-size: cover;
@@ -186,6 +197,9 @@ body{
     background: url(canyon.jpg) no-repeat;
     background-size: cover;
 }
+/* background images*/
+
+/* about*/
 
 .bar span{
     height: 30px;
@@ -276,9 +290,11 @@ body{
     margin: 0px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-
-    
+    flex-wrap: wrap;   
+}
+.port-images{
+    height:200px ;
+    width:200px ;
 }
 .features .first{
     padding: 10px;
