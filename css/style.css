@@ -2,5 +2,415 @@
 @import url(../partials/variable.css);
 
 
+/* nav area starts here*/
+.header .main-menu .navbar{
+    padding: 0rem 1.75rem 0 5rem;
+    background-color: whitesmoke;}
 
-/*end footer area*/
+
+    
+
+.header .main-menu .nav-item .nav-link{
+    font-family:"times New Roman', Times, serif", normal;
+    text-transform: uppercase;
+    margin-right: 50px;
+    font-weight: 500;
+    padding: 1.75rem;
+    color: black;}
+
+.header .main-menu .navbar-nav .active a{
+    background:linear-gradient(90deg,#4458dc 0%, #854fee 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+
+.header .main-menu .navbar-nav a:hover{
+    background:linear-gradient(90deg,#4458dc 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;}
+
+.header .main-menu a .text{
+    background:linear-gradient(90deg,#4458dc 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* nav area ends here*/
+/* main area starts here*/
+
+
+body{ 
+    padding: 0px;
+    margin: 0px;
+    min-height: auto;
+    padding-bottom: 80px;
+    position: relative;
+    
+}
+
+
+
+
+.main-cintainer{
+    padding: 0px;
+    margin-left: 0rem;
+}
+.left{
+    background-color: rgb(255, 255, 255);
+    justify-content: left;
+    padding:60px 30px 60px 60px;
+    margin-left: 0px;
+} 
+.my-image{
+    float: left;
+    margin: 4px;
+    margin-right: 10px;
+    border: 2px solid rgb(199, 205, 231);
+}
+
+.about-me{ 
+    text-shadow: 1px 1px  #854fee;
+}
+/* right section starts */
+.right{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding:60px 30px 60px 60px;
+    margin-left: 0px;
+    height: 50vh;
+} 
+.connect-me{
+    text-shadow: 1px 1px #854fee;
+}
+.right .social-media ul{
+    display: block;
+    list-style: none;
+    position: absolute;
+    
+
+}
+.right .social-media ul li{
+    display:inline-block;
+    margin:20px;
+    padding:0px;
+    background-color: white
+
+}
+.right .social-media ul li .fa{
+    position: relative;
+    margin-top: 20px;
+   font-size: 50px;
+   line-height: 300px; 
+   transition: 1s;
+   text-align: center;
+}
+.right .social-media ul li a{
+    line-height: 50px; 
+    position: relative; 
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 2px 3px rgba(0,0,0,.5);
+    text-align: center;
+    cursor: pointer;
+}
+.right .social-media ul li a:hover{
+    transform: translate(0, -10px)
+}
+.right .social-media ul li:nth-child(1) a:hover{
+    background-color: #1877f2;
+    color: white;
+}
+
+.right .social-media ul li:nth-child(2) a:hover{
+    background-color: #c32aa3;
+    color:rgb(224, 210, 210);
+}
+
+.right .social-media ul li:nth-child(3) a:hover{
+    background-color: #007bb5;
+    color: whitesmoke;
+}
+
+.right .social-media ul li:nth-child(4) a:hover{
+    background-color: black;
+    color: white;
+}
+
+.right .social-media ul li:nth-child(5) a:hover{
+    background-color: #1da1f2;
+    color: white;
+}
+
+
+/* right section ends here */
+
+
+/* personal section*/
+.personal li{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+.personal .bar{
+    display: block;
+    background: white;
+    height: 30px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: 0 0 10px grey;
+    
+}
+.about{
+    background:url(about.jpg) no-repeat;
+    background-size: cover;
+}
+.hobie{
+    background: url(hobbies.jpg) no-repeat;
+    background-size: cover;
+}
+.food{
+    background:url(food.jpg) no-repeat;
+    background-size: cover;
+}
+.bucket{
+    background: url(canyon.jpg) no-repeat;
+    background-size: cover;
+}
+
+.bar span{
+    height: 30px;
+    float: left;
+    background: linear-gradient(90deg,#4458dc 0%, #854fee 100%);
+}
+.life{
+    width: 40%;
+}
+.education{ 
+    width: 100%;
+}
+.current{
+    width: 30%;
+    
+}
+/* hobbies*/
+.bar .hobbies{
+    height: 30px;
+    float: left;
+    background: linear-gradient(90deg,green 0%,limegreen 100%);
+}
+.hiking{
+    width: 75%;
+}
+.fishing{
+    width: 60%;
+}
+.adventure-sports{
+    width: 95%;
+}
+.volleyball{
+    width: 95%;
+}
+.motorsports{
+    width: 55%;
+}
+/*foods*/
+.bar .food{
+    height: 30px;
+    float: left;
+    background: linear-gradient(90deg, orange 0%, yellow 100%);
+}
+.chinese{
+    width:40%;
+}
+.indian{
+    width:80%;
+}
+.mediterranean{
+    width:60%;
+}
+.italian{
+    width:50%;
+}
+.mexican{
+    width:70%;
+}
+/*bucket-list*/
+.bar .bucket-list{
+    height: 30px;
+    float: left;
+    background:linear-gradient(90deg, red 0%, orange 100%)
+}
+.skydive{ 
+    width: 95%;
+}
+.grand-canyon{ 
+    width: 90%;
+}
+.norway{ 
+    width: 85%;
+}
+.bungee{ 
+    width: 90%;
+}
+.hawaii{ 
+    width: 100%;
+}
+
+
+/* personal section*/
+/*portfolio area strts here*/
+
+.features{
+    background-color: azure;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+}
+.features .first{
+    padding: 10px;
+    margin: 10px;
+}
+.features .figure .figcaption{ 
+    text-transform: capitalize;
+    text-align: center;
+    
+   }
+.features .figure{
+    align-content: center;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.features .card .img{
+ padding: 20px;
+ margin: 20px;
+ box-shadow: 0 2px 2px 2px black;
+}
+.features .first a{
+    line-height: 30px; 
+    font-weight: 500;
+    display:block;
+    width: 200px;
+    height: auto;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 3px rgba(0,0,0,.5);
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.features .first a:hover{
+    background:linear-gradient(90deg,#4458dc 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transform: translate(0px -10px);
+    background-color: beige;
+    
+}
+
+/*portfolio area ends here*/
+/*contact area starts here*/
+.contact-section{
+    background: url(background.jpg) no-repeat center;
+    background-size: cover;
+    padding:40px 0;
+}
+.contact-section h1{
+    text-align: center;
+}
+.line{
+    width: 200px;
+    height: 10px;
+    background: linear-gradient(90deg,#4458dc 0%, #854fee 100%);
+    margin: 40px auto;
+
+}
+.contact-form{
+    max-width: 650px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+
+
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 0;
+    border: 0;
+    background:azure; 
+    padding: 20px 40px;
+    color: whitesmoke;
+    outline: none;
+    font-size: 18px;
+    font-weight:400;
+    transition: 0.6s;
+}
+.contact-form-text:focus{
+box-shadow: 0 0 10px 4px rgb(142, 143, 247);
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+
+}
+.button-primary{
+    text-transform: uppercase;
+    font-weight: 500;
+    height: 40px;
+    width: 80px;
+    float: right;
+    border: 0;
+    background: linear-gradient(90deg,#4458dc 0%, #854fee 100%);
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.6s;
+    border-radius: 12px;
+}
+.button-primary:hover{
+    background: azure;
+    color: rgb(145, 21, 247);
+
+}
+
+
+/*contact area ends here*/
+
+
+
+
+/* main area ends here*/
+
+
+/* footer starts here*/
+.page-footer{
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+    margin-top:auto;
+    padding: 20px;
+    position: absolute;
+    width: 100%;}
+
+
+/* footer ends here*/
