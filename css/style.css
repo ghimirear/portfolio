@@ -376,10 +376,10 @@ body{
     border: 0;
     background:azure; 
     padding: 20px 40px;
-    color: whitesmoke;
+    color: black;
     outline: none;
     font-size: 18px;
-    font-weight:400;
+    font-weight:500;
     transition: 0.6s;
 }
 .contact-form-text:focus{
@@ -426,7 +426,8 @@ textarea.contact-form-text{
     margin-top:auto;
     padding: 20px;
     position: absolute;
-    width: 100%;}
+    width: 100%;
+margin-top: 10px;}
 
 
 /* footer ends here*/
