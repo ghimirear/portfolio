@@ -1,0 +1,16 @@
+<?php 
+if(isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $emailfrom = $_POST['email'];
+    $phone = $_POST['phonenumber'];
+    $message = $_POST['message'];
+    $mailTo = "ghimirearjun15@gmail.com";
+    $headers = "From: ".$emailfrom;
+    $txt = "You have received an e-mail from".$name.".\n\n".$message;
+
+    mail($mailTo, $message, $txt, $headers);
+    header("Location:contact.html?mailsend")
+
+}
+
+

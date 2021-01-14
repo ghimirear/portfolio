@@ -1,6 +1,8 @@
 @import url(./font.css);
 @import url(../partials/variable.css);
-
+.hide{
+    display: none;
+}
 
 /* nav area starts here*/
 .header .main-menu .navbar{
@@ -64,6 +66,33 @@ body{
     padding:60px 30px 60px 60px;
     margin-left: 0px;
 } 
+.card{
+    height: 210px;
+    width: 210px;
+    box-shadow: 0 0 5px black;
+    float: left;
+   margin: 10px 20px;
+}
+.card-text{
+    visibility: hidden;
+    padding: 0px;
+    position: absolute;
+    margin-bottom: 5px;
+}
+.card:hover {
+    height: 260px;
+   
+}
+.card:hover .card-text{
+    visibility: visible;
+}
+
+.card-body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 .my-image{
     height: 200px;
     width: 200px;
@@ -71,6 +100,10 @@ body{
     margin: 4px;
     margin-right: 10px;
     border: 2px solid rgb(199, 205, 231);
+}
+.my-image:hover{
+    opacity: .9;
+    box-shadow: 0 0 5px #854fee;
 }
 
 .about-me{ 
@@ -213,7 +246,7 @@ body{
     width: 100%;
 }
 .current{
-    width: 30%;
+    width: 55%;
     
 }
 /* hobbies*/
@@ -278,6 +311,10 @@ body{
 }
 .hawaii{ 
     width: 100%;
+}
+.bar:hover{
+    box-shadow: 0 0 10px rgb(246, 169, 150);
+    font-size: 1.3rem;
 }
 
 
