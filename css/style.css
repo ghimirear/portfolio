@@ -72,6 +72,7 @@ body{
     box-shadow: 0 0 5px black;
     float: left;
    margin: 10px 20px;
+   background:linear-gradient(90deg,#9da5d8 0%, #aa96d3 100%);;
 }
 .card-text{
     visibility: hidden;
@@ -81,7 +82,7 @@ body{
 }
 .card:hover {
     height: 260px;
-   
+    background:linear-gradient(90deg,#b4bbe9 0%, #c2afe9 100%);
 }
 .card:hover .card-text{
     visibility: visible;

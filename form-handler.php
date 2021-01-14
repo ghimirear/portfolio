@@ -4,7 +4,7 @@ if(isset($_POST['submit'])){
     $emailfrom = $_POST['email'];
     $phone = $_POST['phonenumber'];
     $message = $_POST['message'];
-    $mailTo = "ghimire_arjun55.com";
+    $mailTo = "ghimire_arjun55@yahoo.com";
     $headers = "From: ".$emailfrom;
     $txt = "You have received an e-mail from".$name.".\n\n".$message;
 
@@ -13,4 +13,4 @@ if(isset($_POST['submit'])){
 
 }
 
-
+?>
