@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="contact.html">
         <link rel="stylesheet" href="about.html">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
         <link rel="stylesheet" href="./css/style.css">
            <title>Home</title>
     </head>
@@ -64,12 +65,14 @@
           <h1 class="text about-me text-uppercase">contact us</h1>
           <div class="line"></div>
 
-          <form class="contact-form" action="form-handler.php" method="post">
-            <input type="text"name="name" class="contact-form-text" placeholder="your name">
-            <input type="email" name="email" class="contact-form-text" placeholder="your email">
-            <input type="number" name = "number" class="contact-form-text" placeholder="your number">
-           <textarea type="text"name="message" class="contact-form-text" placeholder="message"></textarea>
+          <form class="contact-form" action="https://formspree.io/f/moqprajl" method="POST">
+            
+            <input type="text"name="name" class="name contact-form-text" placeholder="your name" required>
+            <input type="text" name="email" class="email contact-form-text" placeholder="your email" required>
+            <!--<input type="number" name = "number" class="contact-form-text" placeholder="your number">!-->
+           <textarea type="text"name="message" class=" message contact-form-text" placeholder="message" required></textarea>
            <input type="submit" class="contact-form-btn button-primary" value="send">
+         
           </form>
   
 
@@ -88,6 +91,7 @@
         <!-- bootstrap js file-->
         <script src="java/bootstrap.min.js"> </script>
         <script src="https://kit.fontawesome.com/42ee12ba66.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
     </body>
     
 </html>

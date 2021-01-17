@@ -333,6 +333,7 @@ body{
 .port-images{
     height:200px ;
     width:200px ;
+    box-shadow: 0 0 2px 3px rgba(0,0,0,.5);
 }
 .features .first{
     padding: 10px;
@@ -355,7 +356,7 @@ body{
 .features .card .img{
  padding: 20px;
  margin: 20px;
- box-shadow: 0 2px 2px 2px black;
+ box-shadow: 0 0px 2px 3px black;
 }
 .features .first a{
     line-height: 30px; 
@@ -365,7 +366,7 @@ body{
     height: auto;
     font-size: 18px;
     border-radius: 5px;
-    box-shadow: 0px 2px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 0px 0px 2px 3px rgba(0,0,0,.5);
     text-align: center;
     cursor: pointer;
 
@@ -469,3 +470,46 @@ margin-top: 10px;}
 
 
 /* footer ends here*/
+/*projects site*/
+
+.card-panel{
+    padding: 10px;
+    margin: 10px;
+}
+.pasimg{
+    border-radius: 5px;
+    box-shadow: 0 0 5px blueviolet;
+    height: 400px;
+    width: 500px;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+   
+}
+.project-content{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.project-text{
+    margin-bottom: 10px;
+}
+.code, .app{
+    margin:5px;
+    align-items: center;
+}
+.body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.imagediv{
+    margin: 10px;
+}
+
