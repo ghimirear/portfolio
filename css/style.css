@@ -49,8 +49,7 @@ body{
     margin: 0px;
     min-height: auto;
     padding-bottom: 80px;
-    position: relative;
-    
+    position: relative; 
 }
 
 
@@ -69,10 +68,11 @@ body{
 .card{
     height: 210px;
     width: 210px;
-    box-shadow: 0 0 5px black;
+    box-shadow: -1px -1px 1px 1px rgb(212, 203, 216);
     float: left;
-   margin: 10px 20px;
+   margin: 10px 20px; 
    background:linear-gradient(90deg,#9da5d8 0%, #aa96d3 100%);;
+   margin-bottom: 20px;
 }
 .card-text{
     visibility: hidden;
@@ -82,7 +82,7 @@ body{
 }
 .card:hover {
     height: 260px;
-    background:linear-gradient(90deg,#b4bbe9 0%, #c2afe9 100%);
+    background:linear-gradient(90deg,#b7bee9 0%, #ae8feb 100%);
 }
 .card:hover .card-text{
     visibility: visible;
@@ -511,5 +511,6 @@ margin-top: 10px;}
 }
 .imagediv{
     margin: 10px;
+
 }
 
