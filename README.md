@@ -1,4 +1,4 @@
-# homework2
+# Portfolio
 ## updating portfolio with:
 form submission is working,
 added projects links,
