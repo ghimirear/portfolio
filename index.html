@@ -10,6 +10,8 @@
         <!--custome style-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
            <title>Home</title>
     </head>
     <body class="body">
@@ -43,47 +45,65 @@
          <!--main area starts here-->
          <div class="container-fluid main-container">
          <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 left">           
-              <h2 class="about-me text-uppercase">ABOUT ME</h2>
-              <hr>
-             <div class="card" >
-                <img  class="fluid my-image" src="./images/myimage.jpg" alt="Arjun ghimire ">
-                <div class="card-body">
-                  <h4 class="card-text">Arjun Ghimire</h4>
-                </div>
-              </div>
-                 <span> <h4>Hello World!!</h4>
-                  <p>I'm a </p>
-                  <h5>Web Developer </h5> </span>
-                  <h6 style="text-decoration: underline;">Skills:</h6>                 
-                  <ul style="list-style-type: none; font-weight: 500;">
-                    <li>HTML/CSS</li>
-                    <li>Javascript</li>
-                    <li>Node/Express</li>
-                    <li>Mysql/Sequelize</li>
-                    <li>MongoDB</li>
-                    <li>React</li>
-                    <li>MERN</li>
-                  </ul>
-                  <p>I am from the Maryland Baltimore area. I like building interactive web apps.
-                    I have my bachelor degree in Pharmacy and looking to transition to web development
+            <div class="col col-xs-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+                <div class="card ">
+                  <div class="card-header">
+                      <h3 class="about-me mt-2 ml-3">About Me</h3>
+                        <img src="./images/myimage.jpg" class="my-image mr-2">
+                          <h3  class="hello"> Hello, </h3>
+                          <p class="text">My name is Arjun Ghimire. I am a  
+                              Full-Stack Web Developer, recently earned 
+                               certificate from <i> The George Washington University</i>
+                              in web development. I have a bachelor degree in  pharmacy from 
+                              <i>Chitwn Medical College, Nepal </i>   and I am in a transition to web development.
+                              I am seeking an oppertunity where I can apply  my new skillsets and grow  along with the company.
+                              I enjoy working on both back end and front end of the application. Do visit my portfolio section for a 
+                              representative  sample of technologies I've utilized in my projects throughout the bootcamp.
 
-                  </p>
-                  <div class="resume float-left">
-                  <a href="./images/AG-RSM.pdf"> <button class="button-primary">Resume</button></a>
-                  </div>
-          </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 right"> 
-                <h3 class="text-uppercase connect-me"><strong> connect me on</strong>  </h3>
-                <hr>
-                  <div class="social-media">
-                    <ul>
-                      <li> <a href="https://www.linkedin.com/in/arjun-ghimire-8291171b8/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                      <li> <a href="https://github.com/ghimirear" target="_blank"><i class="fab fa-github"></i></a></li>
-                      <li> <a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                          </p>
+                          <p> Currently living in the Baltimore area and I would like to find a 
+                            full-stack web developer position. Open to relocate all around. 
+                          </p>
+                  </div>   
+                  <div class="card-body mt-0">
+                    <h3 class=" align-center justify-center ">Skills</h3>
+                    <hr style="height: 10px;">
+                    <ul class="d-flex flex-row list-unstyled flex-wrap">
+                      <li class="html-logo"> <i class="fab fa-html5 fa-3x m-2 html-logo"></i></li>
+                      <li ><i class="fab fa-css3 fa-3x m-2 css-logo"></i></li>
+                      <li><i class="fab fa-node fa-3x m-2 nodejs-logo"></i></li>
+                      <li><i class="fas fa-database fa-3x m-2 database-logo"></i></li>
+                      <li><i class="fab fa-bootstrap fa-3x m-2 bootstrap-logo"></i></li>
+                      <li><i class="fab fa-js fa-3x m-2 js-logo"></i></li>
+                      <li><img class="m-2" src="https://img.icons8.com/nolan/64/react-native.png"/></li>
+                      <li><img class="m-2" src="https://img.icons8.com/color/50/000000/mongodb.png "/></li>
+                      <li><img class="m-2" src="https://img.icons8.com/ios-filled/50/4a90e2/jquery.png"/></li>
+                      <li><img class="m-2" src="https://img.icons8.com/color/48/000000/material-ui.png "/></li>
                     </ul>
-                  </div> 
-            </div> 
+                  </div>
+                </div>
+            </div>
+            <div class=" col col-xs-12 col-sm-12 col-md-10 col-lg-4 col-xl-4 right">
+             <div class="card auto_width second-card">
+              <h3 class="text-uppercase connect-me connect"><strong> connect me on</strong>  </h3>
+              <hr>
+                <div class="social-media d-flex flex-wrap ml-0">
+                  <ul class="mt-5 ml-0">
+                   <li class="ml-0"> <a href="https://www.linkedin.com/in/arjun-ghimire-8291171b8/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                   <li> <a href="https://github.com/ghimirear" target="_blank"><i class="fab fa-github"></i></a></li>
+                   <li> <a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                   
+                  </ul>
+                </div> 
+                <div class=" contact">
+                  <ul>
+                  <li class="mt-5"> <h5><i class="fas fa-envelope-open-text" style="color: rgba(17, 31, 223, 0.9) "></i> : ghimirearjun15@gmail.com</h5> </li>
+                  <li class="mt-2"> <h5><i class="fas fa-phone-alt  " style="color: rgba(17, 31, 223, 0.9) "></i> : (443)-355-7644</h5></li>
+                </ul>
+              </div>
+             </div>
+
+          </div>
           <div class=" personal about col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
             <h3 class=" about-me  text-capitalize">about</h3>
             <hr>
