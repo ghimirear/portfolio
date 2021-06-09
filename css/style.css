@@ -639,6 +639,16 @@ flex-wrap: wrap;
     box-shadow: 2px 2px plum;
     border-radius: 10px;
     opacity: 0.9;
+    object-fit: cover;
+}
+.app-img{
+    align-self: center;
+    height: 340px;
+    width: 340px;
+}
+.app-card{
+    align-items: center;
+    justify-content: center;
 }
 .folio-image:hover{
     transform: translate(2%, 2%);
@@ -649,6 +659,8 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background: linear-gradient(rgb(253, 170, 92), rgb(251, 173, 251 ) 0.4) ;
+
 }
 .my-name{
     font-size: 2rem;
@@ -784,9 +796,10 @@ textarea.contact-form-text{
     text-align: center;
     padding: 20px;
     margin-top: 10px;
-    width: 100vw;
-    position:absolute;
-    margin-left: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
 }
 
 
