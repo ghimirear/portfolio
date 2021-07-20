@@ -125,7 +125,9 @@ body{
 }
 
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 .class-skill{
@@ -386,9 +388,20 @@ flex-wrap: wrap;
     .header{
         width: 100%;
     }
-    .col .card {
+   
+    .col .card:nth-child(1) {
         margin-top: 115px;
         width: 98vw;
+        margin: 0;
+        
+    }
+    .follio-container{
+        width: max-content;
+        margin: 10px;
+        color: white;
+    }
+    .col .container .card:nth-child(1){
+        width: 100vw;
     }
 }
 @media (max-width:480px){
@@ -559,156 +572,10 @@ flex-wrap: wrap;
 /* right section ends here */
 
 
-/* personal section*/
-.personal{
-    padding: 20px;
-    margin: 0px;
-}
-
-.personal li{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: whitesmoke;
-}
-.personal .bar{
-    display: block;
-    background: white;
-    height: 30px;
-    width: 320px;
-    border-radius: 10px;
-    border: 1px solid black;
-    overflow: hidden;
-    box-shadow: 0 0 10px grey;
-    
-}
-/* background images*/
-.about{
-    background:url(about.jpg) no-repeat;
-    background-size: cover;
-}
-.hobie{
-    background: url(hobbies.jpg) no-repeat;
-    background-size: cover;
-}
-.food{
-    background:url(food.jpg) no-repeat;
-    background-size: cover;
-}
-.bucket{
-    background: url(canyon.jpg) no-repeat;
-    background-size: cover;
-}
-/* background images*/
-
-/* about*/
-
-.bar span{
-    height: 30px;
-    float: left;
-    background: linear-gradient(90deg,#4458dc 0%, #854fee 100%);
-}
-.life{
-    width: 40%;
-}
-.education{ 
-    width: 100%;
-}
-.current{
-    width: 55%;
-    
-}
-/* hobbies*/
-.bar .hobbies{
-    height: 30px;
-    float: left;
-    background: linear-gradient(90deg,green 0%,limegreen 100%);
-}
-.hiking{
-    width: 75%;
-}
-.fishing{
-    width: 60%;
-}
-.adventure-sports{
-    width: 95%;
-}
-.volleyball{
-    width: 95%;
-}
-.motorsports{
-    width: 55%;
-}
-/*foods*/
-.bar .food{
-    height: 30px;
-    float: left;
-    background: linear-gradient(90deg, orange 0%, yellow 100%);
-}
-.chinese{
-    width:40%;
-}
-.indian{
-    width:80%;
-}
-.mediterranean{
-    width:60%;
-}
-.italian{
-    width:50%;
-}
-.mexican{
-    width:70%;
-}
-/*bucket-list*/
-.bar .bucket-list{
-    height: 30px;
-    float: left;
-    background:linear-gradient(90deg, red 0%, orange 100%)
-}
-.skydive{ 
-    width: 95%;
-}
-.grand-canyon{ 
-    width: 90%;
-}
-.norway{ 
-    width: 85%;
-}
-.bungee{ 
-    width: 90%;
-}
-.hawaii{ 
-    width: 100%;
-}
-.bar:hover{
-    box-shadow: 0 0 10px rgb(246, 169, 150);
-    font-size: 1.3rem;
-}
 
 
 /* personal section*/
 /*portfolio area strts here*/
-
-@media(max-width:375px){
-    .port-social{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        transform: translate(-400%, -70%);
-    }
-    .port-contact{
-        transform: translate(0%, 50%);
-    }
-    .card{
-        height: fit-content;
-        width: auto;
-    }
-}
 
 
 .folio-image{
@@ -808,12 +675,15 @@ flex-wrap: wrap;
 
 }
 .contact-form{
-    all: unset;
+    /* //all: unset; */
     max-width: 650px;
-    padding: 0 10px;
+    /* padding: 0 10px; */
     overflow: hidden;
     outline: none;
-
+    /* background: linear-gradient(rgb(173, 135, 209, 0.7) , rgb(255, 114, 255, 0.7)); */
+    width: 100%;
+    padding: 10px;
+    align-self: center;
 
 }
 .contact-form-text{
@@ -882,6 +752,40 @@ textarea.contact-form-text{
 
 
 /* footer ends here*/
-/*projects site*/
+/* portfolio secton */
+.follio-container{
+background: linear-gradient( blue, black );
+padding: 10px;
+border-radius: 20px;
+}
+.follio-image{
+    height: 320px;
+    width: 320px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+    float: left;
+    border-color: grey;
+    border: 2px solid grey;
+    box-shadow: 1px 1px 1px solid blue;
+    shape-outside: circle(50%);
+    float: left;
+}
+.follio-image:hover{
+    border-color: aqua;
+    opacity: 0.9;
+}
+
+.follio-container * p{
+    float: right;
+    margin-left: 20px;
+    justify-content: center;
+}
+.port-content{
+    background: linear-gradient( rgba(255, 109, 148, 0.7), rgba(255, 113, 255, 0.7));
+    border-radius: 20px;
+    padding: 20px;
 
 
+}
+    
